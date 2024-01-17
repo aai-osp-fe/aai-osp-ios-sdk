@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'osp_selfie'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of osp_selfie.'
+  s.version          = '1.0.0'
+  s.summary          = 'Used to verify whether the current user is a real person'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,17 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'The osp_selfie Inquiry flow lets you securely and seamlessly collect your user\'s information'
 
-  s.homepage         = 'https://github.com/loong/osp_selfie'
+  s.homepage         = 'https://github.com/aai-osp-fe/aai-osp-ios-sdk-selfie'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'loong' => 'yulong.chen@advancegroup.com' }
-  s.source           = { :git => 'https://github.com/loong/osp_selfie.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aai-osp-fe/aai-osp-ios-sdk-selfie.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.vendored_frameworks = ['osp_selfie/frameworks/FaceTecSDK.xcframework','osp_selfie/frameworks/onestopSDK.framework']
   s.ios.deployment_target = '13.0'
 
