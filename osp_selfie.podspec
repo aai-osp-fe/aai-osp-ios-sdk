@@ -28,7 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/loong/osp_selfie.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.vendored_frameworks = ['osp_selfie/frameworks/FaceTecSDK.xcframework','osp_selfie/frameworks/onestopSDK.framework']
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'osp_selfie/Classes/**/*'
   

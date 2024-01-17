@@ -5,6 +5,12 @@ platform :ios, '10.0'
 target 'osp_selfie_Example' do
   pod 'osp_selfie', :path => '../'
 
+  
+  pod 'Moya'
+  pod 'PromiseKit'
+  pod 'SwiftMessages'
+  
+  
   target 'osp_selfie_Tests' do
     inherit! :search_paths
 

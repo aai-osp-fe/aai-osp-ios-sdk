@@ -1,0 +1,4 @@
+framework module onestopSDK {
+  header "onestopSDK-Swift.h"
+  requires objc
+}

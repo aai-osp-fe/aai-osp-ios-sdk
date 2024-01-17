@@ -1,0 +1,26 @@
+{
+  "name": "osp_selfie",
+  "version": "0.1.0",
+  "summary": "A short description of osp_selfie.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/loong/osp_selfie",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "loong": "yulong.chen@advancegroup.com"
+  },
+  "source": {
+    "git": "https://github.com/loong/osp_selfie.git",
+    "tag": "0.1.0"
+  },
+  "vendored_frameworks": [
+    "osp_selfie/frameworks/FaceTecSDK.xcframework",
+    "osp_selfie/frameworks/onestopSDK.framework"
+  ],
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "osp_selfie/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module osp_selfie {
+  umbrella header "osp_selfie-umbrella.h"
+
+  export *
+  module * { export * }
+}
