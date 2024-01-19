@@ -37,13 +37,6 @@ The OSP SDK Inquiry flow lets you securely and seamlessly collect your user's in
 
 ## Integration
 
-1. Download the framework [down page](...download_url)
-2. Drag the framework to your xcode project.
-3. In your xcode proj -> targets -> Frameworks, Libraries and Embedded Content, find the osp framework, Embed select Embed & Sign
-4. You need insert the key 'NSCameraUsageDescription' in your xcode proj info.plist file if you use the selfie function.
-5. You can find the FaceTec.strings file, add these files to your xcode project. These files contain copywriting of selfies. You can modify these values if you want.
-6. OSP SDK depends on PromiseKit, Moya, and SwiftMessage. This requires your project to depend on these three kits. You can depend on them through cocoapods or Swift Package Manager or any other way.
-
 ```ruby
 pod 'Moya'
 pod 'PromiseKit'
@@ -119,7 +112,7 @@ Response
 
 ```swift
 /**
-token: The workflow token, you can fetch it by your service
+token: Generate SDK Token step
 context: The current UIViewController, this context.naviationController cannt be nil
 */
 

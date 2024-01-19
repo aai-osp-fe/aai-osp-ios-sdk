@@ -8,15 +8,22 @@
 
 import UIKit
 import onestopSDK
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var key_tf: UITextField!
     
     @IBOutlet weak var jid_tf: UITextField!
     
+    @IBOutlet weak var tipLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        key_tf.delegate = self
+        jid_tf.delegate = self
+        
+        OneStopManager.default.registerNode(name: .selfie, node: SelfieNode())
+        
     }
     
     @IBAction func startBtnClick(_ sender: UIButton) {
@@ -50,7 +57,10 @@ class ViewController: UIViewController {
                        let data = dict["data"] as? [String: Any],
                        let token = data["sdkToken"] as? String {
                         print("JSON Dictionary: \(token)")
-                        OneStopManager.default.ex_start(token: token, context: self)
+                        DispatchQueue.main.async {
+                            OneStopManager.default.ex_start(token: token, context: self)
+                        }
+                        
                     }
                     
                 } catch {
@@ -67,6 +77,11 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 
 }

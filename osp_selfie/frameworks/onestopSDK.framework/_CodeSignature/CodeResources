@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/onestopSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		mVvpvvzfVl6gakDLou1DDiJvD5U=
+		lSP1LIlPCvck5GXV3IfafHGiGNY=
 		</data>
 		<key>Modules/onestopSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/onestopSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		VN0rOT3XRPoYYGW7SppZLgZX53o=
+		6/JWVuON4miECnmaTTC2GxScHKI=
 		</data>
 		<key>Modules/onestopSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ISyYuwPOpJZNDq9YXjNaOJRW+to=
+		bqUzZTFltfPWnq3nWgxHbZQFE+E=
 		</data>
 		<key>OneStopSDK.bundle/Assets.car</key>
 		<data>
@@ -119,10 +119,6 @@
 	<dict>
 		<key>Headers/onestopSDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kSs5NddGrQMuhjARWJtzx4jyJuM=
-			</data>
 			<key>hash2</key>
 			<data>
 			BNhUO0xIA1EV3LTVq6hQtEJ3XaOv4XNe15DoZGSge+c=
@@ -130,10 +126,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/Y7m9/SwEm7thePG0U2EDbhbzAQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			r90gP7cir2b3OZiCIt+lCmO8zHcCEDnci9irxxVWFxA=
@@ -141,21 +133,13 @@
 		</dict>
 		<key>Modules/onestopSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mVvpvvzfVl6gakDLou1DDiJvD5U=
-			</data>
 			<key>hash2</key>
 			<data>
-			2OAgzKQHro9IJej8x8UebiIDL2kjtWb9mO/jFdmFru8=
+			lF7eAYq2sgubaXWG5/um95AiA5LvxsAKZWTdFOU/yok=
 			</data>
 		</dict>
 		<key>Modules/onestopSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
@@ -163,32 +147,20 @@
 		</dict>
 		<key>Modules/onestopSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VN0rOT3XRPoYYGW7SppZLgZX53o=
-			</data>
 			<key>hash2</key>
 			<data>
-			UmHDIDR+Vtn0fYfuyEke2Y2hCBtBR2qi8De1zI6PbHY=
+			0v8TT8gsCsh9CtqXL3mq0+v2n7qxBuD2ScsOrIBECdE=
 			</data>
 		</dict>
 		<key>Modules/onestopSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ISyYuwPOpJZNDq9YXjNaOJRW+to=
-			</data>
 			<key>hash2</key>
 			<data>
-			43rYGWQxcj+jYlww1exodlaPF8pX5OfX+OMZLkmkzh0=
+			0HUnOL5kZ0afUDc6HEL97QvxxccuOALx2Rk1gU54T+0=
 			</data>
 		</dict>
 		<key>OneStopSDK.bundle/Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LoARlwiU2GSrF5dAUg+PzUPzXMw=
-			</data>
 			<key>hash2</key>
 			<data>
 			+HsXhFAILIF8EFWdcIYEh4i6spPq7wsLQUAhRiGpHFE=
@@ -196,10 +168,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dinRyAxxc6fzlZFJre8fDj6LAeo=
-			</data>
 			<key>hash2</key>
 			<data>
 			xUglhLKsCcSAQ95boo0vMTdhebiI48ObUwqoZc0tpRc=
@@ -207,10 +175,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/Italiana-Regular.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Q+LK5Dk5yxPT8Ln3f9YGYdWEA0=
-			</data>
 			<key>hash2</key>
 			<data>
 			FcTdarjPSim6iCb2Xty+L2wmbFV9NNCB8lBy39VgX9I=
@@ -218,10 +182,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/OSPDraft.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AFrWOlIT0vsyjzV87qv/DAR4xJ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			GhyIaS5FU3PVo2PtJaOQcGGvXd4fmZGrnvLsCTPpz/g=
@@ -229,10 +189,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/OSPDraft_id.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+6IQFCG70F+gxT+e7ye/tcwYLUY=
-			</data>
 			<key>hash2</key>
 			<data>
 			RBAYvpolCz7mzikEZuQlFvlyXEjJXxwd1hm/FNS7jjA=
@@ -240,10 +196,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/Roboto-Bold.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YkQqGKn+lFfBr+q/aD0mOmkbd5g=
-			</data>
 			<key>hash2</key>
 			<data>
 			7GhaRhBSlv5GyHRNpKEc+BGLpsEScZQXZvelRt9qp8c=
@@ -251,10 +203,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/Roboto-Medium.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PGoJ/MakVJJMga99/5T8bTme15s=
-			</data>
 			<key>hash2</key>
 			<data>
 			nQ1VowO/0Tt5qHch9lGF6T8jXi13/jmLLcpnrFGZFfU=
@@ -262,10 +210,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/SharpSans-Bold.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6nJZ6KtyFTIREWA7GmGlGxyI3n4=
-			</data>
 			<key>hash2</key>
 			<data>
 			N7ISrEbIF9LiOTd2bmfynPfP9Vol5BnoSi0R1NI4uAQ=
@@ -273,10 +217,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/SharpSans-Medium.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h/uZYLVYovgnUh2gR3JbeAVSYuw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gg5SOB0vID8T8+JRpGrKwlg7436sadTaraueOTD84IY=
@@ -284,10 +224,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OCsKFTIeLKcxSqMIsnTZKPGnxZw=
-			</data>
 			<key>hash2</key>
 			<data>
 			vXMx4myXv2PPoqF03DpV89DfLFY1nR0JkJ/xri2sOAM=
@@ -297,10 +233,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/font/Italiana-Regular.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Q+LK5Dk5yxPT8Ln3f9YGYdWEA0=
-			</data>
 			<key>hash2</key>
 			<data>
 			FcTdarjPSim6iCb2Xty+L2wmbFV9NNCB8lBy39VgX9I=
@@ -308,10 +240,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/font/Roboto-Bold.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YkQqGKn+lFfBr+q/aD0mOmkbd5g=
-			</data>
 			<key>hash2</key>
 			<data>
 			7GhaRhBSlv5GyHRNpKEc+BGLpsEScZQXZvelRt9qp8c=
@@ -319,10 +247,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/font/Roboto-Medium.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PGoJ/MakVJJMga99/5T8bTme15s=
-			</data>
 			<key>hash2</key>
 			<data>
 			nQ1VowO/0Tt5qHch9lGF6T8jXi13/jmLLcpnrFGZFfU=
@@ -330,10 +254,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/font/SharpSans-Bold.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6nJZ6KtyFTIREWA7GmGlGxyI3n4=
-			</data>
 			<key>hash2</key>
 			<data>
 			N7ISrEbIF9LiOTd2bmfynPfP9Vol5BnoSi0R1NI4uAQ=
@@ -341,10 +261,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/font/SharpSans-Medium.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h/uZYLVYovgnUh2gR3JbeAVSYuw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gg5SOB0vID8T8+JRpGrKwlg7436sadTaraueOTD84IY=
@@ -352,10 +268,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/html/OSPDraft.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AFrWOlIT0vsyjzV87qv/DAR4xJ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			GhyIaS5FU3PVo2PtJaOQcGGvXd4fmZGrnvLsCTPpz/g=
@@ -363,10 +275,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/html/OSPDraft_id.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+6IQFCG70F+gxT+e7ye/tcwYLUY=
-			</data>
 			<key>hash2</key>
 			<data>
 			RBAYvpolCz7mzikEZuQlFvlyXEjJXxwd1hm/FNS7jjA=
@@ -374,10 +282,6 @@
 		</dict>
 		<key>OneStopSDK.bundle/id.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZljXiztbI9Wb8R2CgAYh8xvCR4c=
-			</data>
 			<key>hash2</key>
 			<data>
 			iyMaGXA3ZGVqVEDnWcUYBQY4lhlCUH/35D8f+39kTyU=
