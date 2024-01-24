@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+
+## Device requirements
+osp_selfie SDK requires iOS 11 or newer.
 
 ## Installation
 
@@ -19,15 +21,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'osp_selfie'
 ```
-
-## Author
-
-loong, yulong.chen@advancegroup.com
-
-## License
-
-osp_selfie is available under the MIT license. See the LICENSE file for more info.
-
 
 # iOS Integration Guide
 
@@ -168,3 +161,6 @@ public func subScribe(types: [CallBackType], _ act: @escaping (CallBackData?) ->
 
 You can call this method multiple times, the SDK will save these closures and execute them in order.
 
+## License
+
+osp_selfie is available under the MIT license. See the LICENSE file for more info.
