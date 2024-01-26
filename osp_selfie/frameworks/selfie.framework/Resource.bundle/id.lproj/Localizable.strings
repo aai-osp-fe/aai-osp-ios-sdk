@@ -1,0 +1,64 @@
+
+"id_photo_document_type_id_card" = "Identity Card";
+"id_photo_document_type_passport" = "Passport";
+"id_photo_document_type_driving_license" = "Driving License";
+
+"AGE_BELOW_LIMIT" = "*The information uploaded by the user is under 18 years old, so we cannot provide services";
+
+"osp_try_again" = "Coba lagi";
+"osp_next" = "Berikutnya";
+"nationalid_error_invalid_image_size" = "Invalid image size, image size should be between 50KB and 1MB, and image dimension should be between 460 * 460 and 4096 * 4096";
+"nationalid_warn" = "Peringatan";
+"osp_ok" = "OKE";
+"net_work_error" = "Network abnormality, please check the network and try again!";
+"dialog_loading" = "Loading";
+"dialog_loading_content" = "We have received your request and are working on it.";
+"start_title" = "Welcome!";
+"start_subtitle" = "Let\'s confirm your identity by collecting basic information in a few minutes.";
+"start_privacy1" = "By clicking on the button below, you consent to Advance AI, our vendor, collecting, using, and utilizing their service providers to process your identity information, including biometric information, for the purposes of identity verification, fraud prevention, and product optimization, in accordance with their";
+"start_privacy2" = "Privacy Policy.";
+"start_button" = "Get started";
+"dialog_back_title" = "Warning";
+"dialog_back_content" = "Want to end the current process?";
+"dialog_back_yes" = "Stay on current page";
+"dialog_back_no" = "Quit";
+"selfie_2d_title" = "Take a selfie photo";
+"selfie_2d_subtitle" = "Prepare for your selfie video";
+"selfie_2d_content" = "Keep enough light;\nKeep a clean background;\nMake sure that the face is not blocked.";
+"selfie_2d_capture" = "Capture";
+"selfie_2d_retry_title" = "Try again";
+"selfie_2d_retry_content" = "The selfie captured may not meet our image quality standards, which could potentially impact your verification process. Would you like to retake your selfie?";
+"selfie_2d_yes" = "Yes";
+"selfie_2d_move_forward" = "No, Move Forward.";
+"selfie_3d_intro_title" = "Take a selfie photo";
+"selfie_3d_intro_content" = "Welcome to use Liveness Detection service！";
+"selfie_3d_intro_btn" = "Get started";
+"selfie_3d_state_success" = "Successfully verified by 3D liveness detection!";
+"selfie_3d_state_failed" = "We were unable to verify your identity, please contact support.";
+"result_success_title" = "Completed";
+"result_success_content" = "Congratulations! You have been successfully verified.";
+"result_decline_title" = "Sorry";
+"result_decline_content" = "We were unable to verify your identity. Please contact support.";
+"result_pending_title" = "Pending";
+"result_pending_content" = "The verification process has begun, but isn\'t finished. Please wait…";
+"result_button" = "Done";
+"doc_intro_title" = "Kirimkan dokumen identitas";
+"doc_intro_content" = "Berikut adalah beberapa tip cepat untuk melakukannya dengan benar pada percobaan pertama!";
+"doc_select_country_title" = "Pilih negara penerbit";
+"doc_select_country_subtitle" = "Anda akan mengambil foto dokumen identitas yang dikeluarkan oleh negara penerbit.";
+"doc_select_type_title" = "Pilih jenis dokumen";
+"doc_select_type_subtitle" = "Kami memerlukan foto tanda pengenal pemerintah untuk memverifikasi identitas Anda.";
+"doc_upload_title" = "Unggah dokumen";
+"doc_failure_subtitle" = "Kami tidak dapat memverifikasi identitas Anda, silakan hubungi dukungan.";
+"doc_failure_content" = "*Informasi yang diunggah pengguna berusia di bawah 18 tahun, sehingga kami tidak dapat memberikan layanan.";
+"doc_upload_back_size_tip" = "Perlu mengunggah bagian belakang";
+"retry_times_left" = "Peluang Coba Lagi yang Tersisa: %d";
+"get_session_token_error" = "Unable to obtain session token.";
+"camera_permission_content" = "Keizinan kamera dinonaktifkan.Silakan periksa pengaturan sistem operasi dan browser Anda.";
+
+
+"id_phone_takephoto_tip_new" = "Click here to upload your %@ Front";
+"id_phone_takephoto_backside_tip_new" = "Click here to upload your %@ Back";
+
+
+"selfie_3d_error" = "Deteksi kehidupan gagal";

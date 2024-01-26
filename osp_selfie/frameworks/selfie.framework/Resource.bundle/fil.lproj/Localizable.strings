@@ -1,0 +1,38 @@
+
+"id_photo_document_type_id_card" = "ID Card";
+"id_photo_document_type_passport" = "Passport";
+"id_photo_document_type_driving_license" = "Driving License";
+"document_verification_documentUpload_headerTitle" = "Upload documents";
+"document_verification_documentUpload_button" = "Next";
+"id_phone_takephoto_tip_new" = "Click here to upload your %@ Front";
+"id_phone_takephoto_backside_tip_new" = "Click here to upload your %@ Back";
+"document_verification_tap_to_replace_image" = "Replace image";
+"document_verification_tap_to_replace_image_front" = "Replace front image";
+"document_verification_tap_to_replace_image_end" = "Replace back image";
+"position_the_front_of_your_ceritifate_in_frame" = "Position the front of your certificate in the frame and take a clear photo.";
+"position_the_back_of_your_ceritifate_in_frame" = "Position the back of your certificate in the frame and take a clear photo.";
+"of_certificate" = "of certificate";
+
+"document_verification_image_tips" = "Need to upload the back side";
+"document_verification_image_front_tips" = "Need to upload the front side";
+"cancel" = "Cancel";
+"loading_title" = "Loading";
+"loading_wait_we_have_received_your_request" = "We have received your request and are working on it.";
+"AGE_BELOW_LIMIT" = "*The information uploaded by the user is under 18 years old, so we cannot provide services";
+"retry_dialog_title" = "Try again";
+"selfie_verification_enableCameraPage_headerTitle" = "Enable camera";
+"document_verification_enableCamera_content" = "Camera permissions disabled.\n Please check your operating system and browser settings.";
+
+"document_verification_retry_headerTitle" = "Retry Chances Left:";
+"retryReason_other_reason"= "We currently can't verify your identity. please try again.";
+"document_verification_retry_button" = "Try again";
+"document_verification_failurePage_subTitle" = "We were unable to verify your identity, please contact support.";
+"take_a_photo" = "Take a photo"; //submit无此key
+"upload_a_photo" = "Upload a photo"; //submit无此key
+"front_of_certificate" = "Front of the certificate";
+"still_uploading" = "Still Uploading...";
+"selfie_2d_retry_content" = "The selfie captured may not meet our image quality standards, which could potentially impact your verification process. Would you like to retake your selfie?";
+"nationalid_warn" = "Warning";
+
+
+"selfie_3d_error" = "Nabigo ang pagtuklas ng pagiging buhay";

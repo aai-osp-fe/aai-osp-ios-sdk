@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import onestopSDK
+import selfie
 class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var key_tf: UITextField!
