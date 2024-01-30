@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/aai-osp-fe/aai-osp-ios-sdk-selfie.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.0'
-  s.vendored_frameworks = ['osp_selfie/frameworks/FaceTecSDK.framework','osp_selfie/frameworks/onestopSDK.framework']
+  s.vendored_frameworks = ['osp_selfie/Frameworks/FaceTecSDK.xcframework','osp_selfie/Frameworks/onestopSDK.framework']
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'osp_selfie/Classes/**/*'

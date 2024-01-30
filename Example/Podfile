@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'osp_selfie_Example' do
   pod 'osp_selfie', :path => '../'
