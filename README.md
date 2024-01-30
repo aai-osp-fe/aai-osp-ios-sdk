@@ -161,6 +161,9 @@ public func subScribe(types: [CallBackType], _ act: @escaping (CallBackData?) ->
 
 You can call this method multiple times, the SDK will save these closures and execute them in order.
 
+## ipa volume
+Using selfie single node, the ipa package size will increase by 7.3M
+
 ## License
 
 osp_selfie is available under the MIT license. See the LICENSE file for more info.
