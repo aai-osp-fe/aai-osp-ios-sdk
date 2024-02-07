@@ -38,10 +38,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
-  osp_selfie: ae4b416a5b0baf6cd345cf9d61f83d6f7ff3ddcc
+  osp_selfie: f1c7a452febd86f63f8eae65b7acef0d5244ef8a
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
   SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
 
-PODFILE CHECKSUM: 9cf7f97e30ad6303ecbb4972b8cee2feca683363
+PODFILE CHECKSUM: 4b6681f7e9f6b2bf8b1d756387c599b3cf015e38
 
 COCOAPODS: 1.14.3
