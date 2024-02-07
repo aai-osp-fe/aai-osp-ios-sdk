@@ -47,7 +47,21 @@ pod 'SwiftMessages'
 name: The NodeType you want to register.
 node: The instance of nodeable.
 */
-OneStopManager.default.registerNode(name: .selfie, node: SelfieNode.init()) 
+OneStopManager.default.registerNode(name: .selfie, node: SelfieNode.init())
+
+/**
+register callbacker
+*/
+OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para in
+    print("work finish --- \(status), \(para)")
+}, onExit: { code, para in
+    print("work exit --- \(code), \(para)")
+}))
+
+/**
+call the ready() function
+*/
+OneStopManager.default.ready()
 ```
 
 ---
@@ -150,13 +164,11 @@ You can call this method to listen for an event, example:
 des: you can call this method multiple times
 type: CallBackType
 */
-public func subscribe(type: CallBackType, _ act: @escaping (CallBackData?) -> Void)
-```
-
-or
-
-```swift
-public func subScribe(types: [CallBackType], _ act: @escaping (CallBackData?) -> Void)
+OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para in
+    print("work finish --- \(status), \(para)")
+}, onExit: { code, para in
+    print("work exit --- \(code), \(para)")
+}))
 ```
 
 You can call this method multiple times, the SDK will save these closures and execute them in order.

@@ -23,6 +23,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         jid_tf.delegate = self
         
         OneStopManager.default.registerNode(name: .selfie, node: SelfieNode())
+        OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para in
+            print("work finish --- \(status), \(para)")
+        }, onExit: { code, para in
+            print("work exit --- \(code), \(para)")
+        }))
+        
+        OneStopManager.default.ready()
         
     }
     
