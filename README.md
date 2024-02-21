@@ -119,7 +119,7 @@ Response
 
 ```swift
 /**
-token: Generate SDK Token step
+token: The sdkToken of workflow, Referencing the step of generating the SDK Token.
 context: The current UIViewController, this context.naviationController cannt be nil
 */
 
