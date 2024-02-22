@@ -9,8 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
 ## Device requirements
+
 osp_selfie SDK requires iOS 11 or newer.
 
 ## Installation
@@ -18,8 +18,22 @@ osp_selfie SDK requires iOS 11 or newer.
 osp_selfie is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+If you want to use all features.
+
 ```ruby
-pod 'osp_selfie'
+pod 'OSPSDK/All'
+```
+
+If you only want to use the selfie feature.
+
+```ruby
+pod 'OSPSDK/Selfie'
+```
+
+If you only want to use the document feature.
+
+```ruby
+pod 'OSPSDK/Document'
 ```
 
 # iOS Integration Guide
@@ -174,6 +188,7 @@ OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para 
 You can call this method multiple times, the SDK will save these closures and execute them in order.
 
 ## ipa volume
+
 Using selfie single node, the ipa package size will increase by 7.3M
 
 ## License
