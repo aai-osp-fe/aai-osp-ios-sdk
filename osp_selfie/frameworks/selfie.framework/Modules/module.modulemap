@@ -1,4 +1,0 @@
-framework module selfie {
-  header "selfie-Swift.h"
-  requires objc
-}

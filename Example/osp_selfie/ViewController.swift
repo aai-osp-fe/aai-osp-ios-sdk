@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import selfie
+import OSPSDK
 class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var key_tf: UITextField!

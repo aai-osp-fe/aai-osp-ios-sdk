@@ -317,18 +317,18 @@
 				"${PODS_ROOT}/Target Support Files/Pods-osp_selfie_Example/Pods-osp_selfie_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${PODS_ROOT}/../../Resources/Frameworks/Selfie.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
-				"${BUILT_PRODUCTS_DIR}/osp_selfie/osp_selfie.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/osp_selfie/FaceTecSDK.framework/FaceTecSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OSPSDK/Selfie/FaceTecSDK.framework/FaceTecSDK",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Selfie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/osp_selfie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceTecSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

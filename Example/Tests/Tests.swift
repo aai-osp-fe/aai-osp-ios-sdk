@@ -1,5 +1,5 @@
 import XCTest
-import osp_selfie
+import OSPSDK
 
 class Tests: XCTestCase {
     
