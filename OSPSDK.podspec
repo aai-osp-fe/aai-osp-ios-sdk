@@ -19,13 +19,14 @@ Pod::Spec.new do |s|
 
   s.description      = 'The OSPSDK Inquiry flow lets you securely and seamlessly collect your user\'s information'
 
-  s.homepage         = 'https://github.com/aai-osp-fe/aai-osp-ios-sdk-selfie'
+  s.homepage         = 'https://github.com/aai-osp-fe/aai-osp-ios-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'loong' => 'yulong.chen@advancegroup.com' }
-  s.source           = { :git => 'https://github.com/aai-osp-fe/aai-osp-ios-sdk-selfie.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aai-osp-fe/aai-osp-ios-sdk', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift_version = '5.0'
+  s.swift_version    = '5.0'
+  s.platform         = :ios, '13.0'
   # s.vendored_frameworks = ['Resources/Frameworks/FaceTecSDK.xcframework',
   #                         'Resources/Frameworks/onestopSDK.framework',
   #                         'Resources/Frameworks/CaptureCore.xcframework',
