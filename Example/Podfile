@@ -2,18 +2,7 @@ use_frameworks!
 
 platform :ios, '13.0'
 
-target 'osp_selfie_Example' do
-  pod 'OSPSDK/Selfie', :path => '../'
+target 'OSPDemo' do
+  pod 'OSPSDK/All', :path => '../'
 
-  
-  pod 'Moya'
-  pod 'PromiseKit'
-  pod 'SwiftMessages'
-  
-  
-  target 'osp_selfie_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
