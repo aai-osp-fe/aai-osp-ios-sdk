@@ -30,8 +30,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         OneStopManager.default.ready()
         
-        key_tf.text = "d9eafc7f557afaf4"
-        jid_tf.text = "55057"
+//        key_tf.text = "d9eafc7f557afaf4"
+//        jid_tf.text = "55057"
         
     }
     

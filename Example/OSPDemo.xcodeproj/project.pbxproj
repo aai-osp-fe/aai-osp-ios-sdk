@@ -16,6 +16,19 @@
 		6243672B3032C107324CC505 /* Pods_OSPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EE9ED6DED253534397D3A /* Pods_OSPDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1457BE2B2B8757B00095C03F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		14DE7C212B872C0100C62FE8 /* OSPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DE7C242B872C0100C62FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +115,8 @@
 				14DE7C1D2B872C0100C62FE8 /* Sources */,
 				14DE7C1E2B872C0100C62FE8 /* Frameworks */,
 				14DE7C1F2B872C0100C62FE8 /* Resources */,
-				B1BFBC50C22E4A57D15BBDC3 /* [CP] Embed Pods Frameworks */,
+				61F48435753FA7DDD9BC3F3E /* [CP] Embed Pods Frameworks */,
+				1457BE2B2B8757B00095C03F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,7 +174,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B1BFBC50C22E4A57D15BBDC3 /* [CP] Embed Pods Frameworks */ = {
+		61F48435753FA7DDD9BC3F3E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1D3015A9B122DCD670D5B5E /* Pods-OSPDemo.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,6 +379,11 @@
 				DEVELOPMENT_TEAM = 6DPUAF73M4;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OSPDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OSPDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -392,12 +412,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EF4A247E60040EE43BF55E5 /* Pods-OSPDemo.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DPUAF73M4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OSPDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OSPDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

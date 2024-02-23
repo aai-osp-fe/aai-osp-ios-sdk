@@ -3,6 +3,10 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'OSPDemo' do
-  pod 'OSPSDK/All', :path => '../'
-
+  pod 'OSPSDK', :path => '../'
+  
+#  pod 'Moya'
+#  pod 'PromiseKit'
+#  pod 'SwiftMessages'
+  
 end
