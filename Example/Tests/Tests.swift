@@ -1,5 +1,4 @@
 import XCTest
-import OSPKit
 
 class Tests: XCTestCase {
     
