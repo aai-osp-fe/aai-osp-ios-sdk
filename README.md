@@ -1,9 +1,10 @@
-# osp_selfie
+# OSPKit
 
 [![CI Status](https://img.shields.io/travis/loong/osp_selfie.svg?style=flat)](https://travis-ci.org/loong/osp_selfie)
 [![Version](https://img.shields.io/cocoapods/v/osp_selfie.svg?style=flat)](https://cocoapods.org/pods/osp_selfie)
 [![License](https://img.shields.io/cocoapods/l/osp_selfie.svg?style=flat)](https://cocoapods.org/pods/osp_selfie)
 [![Platform](https://img.shields.io/cocoapods/p/osp_selfie.svg?style=flat)](https://cocoapods.org/pods/osp_selfie)
+[![cocoapods](https://cocoapods.org/pods/OSPKit)]
 
 ## Example
 
@@ -13,46 +14,38 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 osp_selfie SDK requires iOS 11 or newer.
 
-## Installation
+## Integration
 
-osp_selfie is available through [CocoaPods](https://cocoapods.org). To install
+OSPKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 If you want to use all features.
 
 ```ruby
-pod 'OSPSDK/All'
+pod 'OSPKit'
 ```
 
 If you only want to use the selfie feature.
 
 ```ruby
-pod 'OSPSDK/Selfie'
+pod 'OSPSelfie'
 ```
 
 If you only want to use the document feature.
 
 ```ruby
-pod 'OSPSDK/Document'
+pod 'OSPDocument'
 ```
-
-# iOS Integration Guide
 
 ## OneStopSDK integration Guide and Technical Documentation
 
 The OSP SDK Inquiry flow lets you securely and seamlessly collect your user's information
 
-## Integration
-
-```ruby
-pod 'Moya'
-pod 'PromiseKit'
-pod 'SwiftMessages'
-```
-
----
-
 ## Usage
+
+```swift
+import OSPSDK
+```
 
 ### 1.Register
 
