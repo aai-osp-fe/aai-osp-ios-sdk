@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OSPKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'Used for verifying document information and conducting liveness detection.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,10 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
-
+  s.swift_version    = '5.0'
+#  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  s.xcconfig = { 'ARCHS' => 'arm64' }
+  
   s.source_files = 'OSPKit/Classes/**/*'
   s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.framework',
                            'OSPKit/Frameworks/OSPSDK.framework',
