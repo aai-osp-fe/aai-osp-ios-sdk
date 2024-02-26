@@ -36,8 +36,9 @@ Pod::Spec.new do |s|
                            'OSPKit/Frameworks/OSPSDK.framework',
                            'OSPKit/Frameworks/CaptureCore.framework',
                            'OSPKit/Frameworks/CaptureUX.framework']
-  s.dependency 'PromiseKit'
-  s.dependency 'SwiftMessages'
+                           
+  s.dependency 'PromiseKit', '8.1.1'
+  s.dependency 'SwiftMessages', '9.0.9'
   s.dependency 'Moya', '15.0.0'
   
   # s.resource_bundles = {
