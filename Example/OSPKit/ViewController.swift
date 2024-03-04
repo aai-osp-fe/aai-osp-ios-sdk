@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Document
+import OSPSDK
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         key_tf.delegate = self
         jid_tf.delegate = self
         
-//        OneStopManager.default.registerNode(name: .selfie, node: SelfieNode())
+        OneStopManager.default.registerNode(name: .selfie, node: SelfieNode())
         OneStopManager.default.registerNode(name: .document, node: DocumentNode())
         OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para in
             print("work finish --- \(status), \(para)")

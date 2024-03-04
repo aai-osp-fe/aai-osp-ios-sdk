@@ -3,9 +3,9 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'OSPKit_Example' do
-#  pod 'OSPKit', :path => '../'
+  pod 'OSPKit', :path => '../'
 #  pod 'OSPSelfie', :path => '../'
-  pod 'OSPDocument', :path => '../'
+#  pod 'OSPDocument', :path => '../'
 
   target 'OSPKit_Tests' do
     inherit! :search_paths
