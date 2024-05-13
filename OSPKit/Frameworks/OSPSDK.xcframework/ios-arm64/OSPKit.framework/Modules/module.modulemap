@@ -1,0 +1,11 @@
+framework module OSPKit {
+  umbrella header "OSPKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module OSPKit.Swift {
+  header "OSPKit-Swift.h"
+  requires objc
+}

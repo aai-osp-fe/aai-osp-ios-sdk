@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'OSPKit/Classes/**/*'
   s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.framework',
-                           'OSPKit/Frameworks/OSPSDK.framework']
+                           'OSPKit/Frameworks/OneStop.framework']
                            
   s.dependency 'PromiseKit', '8.1.1'
   s.dependency 'SwiftMessages', '9.0.9'

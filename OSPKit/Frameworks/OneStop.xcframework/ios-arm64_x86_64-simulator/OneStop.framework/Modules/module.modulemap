@@ -1,0 +1,11 @@
+framework module OneStop {
+  umbrella header "OneStop-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module OneStop.Swift {
+  header "OneStop-Swift.h"
+  requires objc
+}
