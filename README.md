@@ -22,19 +22,19 @@ it, simply add the following line to your Podfile:
 If you want to use all features.
 
 ```ruby
-pod 'OSPKit'
+pod 'OSPKit' //The latest version is 1.1.1
 ```
 
 If you only want to use the selfie feature.
 
 ```ruby
-pod 'OSPSelfie'
+# pod 'OSPSelfie' coming
 ```
 
 If you only want to use the document feature.
 
 ```ruby
-pod 'OSPDocument'
+# pod 'OSPDocument' coming
 ```
 
 ## OneStopSDK integration Guide and Technical Documentation

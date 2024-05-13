@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version    = '5.0'
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
-#  s.xcconfig = { 'ARCHS' => 'arm64' }
+  s.xcconfig = { 'ARCHS' => 'arm64' }
   
   s.source_files = 'OSPKit/Classes/**/*'
   s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.framework',
