@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OSPKit'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Used for verifying document information and conducting liveness detection.'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
 #  s.xcconfig = { 'ARCHS' => 'arm64' }
   
   s.source_files = 'OSPKit/Classes/**/*'
-  s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.xcframework',
-                           'OSPKit/Frameworks/OSPSDK.xcframework']
+  s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.framework',
+                           'OSPKit/Frameworks/OSPSDK.framework']
                            
   s.dependency 'PromiseKit', '8.1.1'
   s.dependency 'SwiftMessages', '9.0.9'
