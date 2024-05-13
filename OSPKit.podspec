@@ -22,18 +22,18 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/aai-osp-fe/aai-osp-ios-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'loong' => 'yulong.chen@advancegroup.com' }
+  s.author           = { 'loong' => 'yulong.chen.tec@advancegroup.com' }
   s.source           = { :git => 'https://github.com/aai-osp-fe/aai-osp-ios-sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
   s.swift_version    = '5.0'
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
-  s.xcconfig = { 'ARCHS' => 'arm64' }
+#  s.xcconfig = { 'ARCHS' => 'arm64' }
   
   s.source_files = 'OSPKit/Classes/**/*'
-  s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.framework',
-                           'OSPKit/Frameworks/OSPSDK.framework']
+  s.vendored_frameworks = ['OSPKit/Frameworks/FaceTecSDK.xcframework',
+                           'OSPKit/Frameworks/OSPSDK.xcframework']
                            
   s.dependency 'PromiseKit', '8.1.1'
   s.dependency 'SwiftMessages', '9.0.9'

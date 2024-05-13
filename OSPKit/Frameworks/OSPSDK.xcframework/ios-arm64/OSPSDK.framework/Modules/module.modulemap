@@ -1,0 +1,11 @@
+framework module OSPSDK {
+  umbrella header "OSPSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module OSPSDK.Swift {
+  header "OSPSDK-Swift.h"
+  requires objc
+}
