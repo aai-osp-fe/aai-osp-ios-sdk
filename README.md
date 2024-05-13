@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Device requirements
 
-osp_selfie SDK requires iOS 11 or newer.
+osp_selfie SDK requires iOS 13 or newer.
 
 ## Integration
 
