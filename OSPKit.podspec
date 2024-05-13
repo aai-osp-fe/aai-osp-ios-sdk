@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OSPKit'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'Used for verifying document information and conducting liveness detection.'
 
 # This description is used to generate tags and improve search results.
