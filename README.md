@@ -37,6 +37,25 @@ If you only want to use the document feature.
 # pod 'OSPDocument' coming
 ```
 
+----
+Please add the follow code to your podfile.
+
+```ruby
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if ['SwiftMessages', 'Moya'].include? target.name
+        target.build_configurations.each do |config|
+          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+      end
+    end
+  end
+```
+
+If your team not use cocoapods, please modify the Moya and SwiftMessage complier option of BUILD_LIBRARY_FOR_DISTRIBUTION =YES;
+
+----
+
 ## OneStopSDK integration Guide and Technical Documentation
 
 The OSP SDK Inquiry flow lets you securely and seamlessly collect your user's information
