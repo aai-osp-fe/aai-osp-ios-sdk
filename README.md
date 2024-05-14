@@ -22,7 +22,7 @@ it, simply add the following line to your Podfile:
 If you want to use all features.
 
 ```ruby
-pod 'OSPKit' //The latest version is 1.1.1
+pod 'OSPKit'
 ```
 
 If you only want to use the selfie feature.
