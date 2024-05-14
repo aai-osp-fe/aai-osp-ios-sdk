@@ -23,9 +23,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         key_tf.delegate = self
         jid_tf.delegate = self
         
-        key_tf.text = "d9eafc7f557afaf4"
-        jid_tf.text = "56035"
-        
         OneStopManager.default.registerNode(name: .selfie, node: SelfieNode())
         OneStopManager.default.registerNode(name: .document, node: DocumentNode())
         OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para in
