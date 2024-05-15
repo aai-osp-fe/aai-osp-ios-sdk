@@ -1,0 +1,45 @@
+//
+// This is a generated file.  Do not manually edit this and commit changes.
+//
+
+"FaceTec_action_im_ready" = "Aku siap";
+"FaceTec_action_ok" = "OK";
+"FaceTec_action_try_again" = "Coba lagi";
+"FaceTec_camera_permission_enable_camera" = "Aktifkan kamera";
+"FaceTec_camera_permission_header" = "Aktiveer kamera";
+"FaceTec_camera_permission_launch_settings" = "PENGATURAN PELUNCURAN";
+"FaceTec_camera_permission_message_auth" = "Kamera Anda dinonaktifkan. Ketuk di bawah untuk mengedit pengaturan Anda.";
+"FaceTec_camera_permission_message_enroll" = "Silakan ketuk tombol di bawah ini untuk mengaktifkan kamera selfie Anda.";
+"FaceTec_feedback_center_face" = "Tengah wajahmu";
+"FaceTec_feedback_face_not_found" = "Bingkai wajahmu";
+"FaceTec_feedback_face_not_looking_straight_ahead" = "Lihat langsung ke depan";
+"FaceTec_feedback_face_not_upright" = "Pegang kepalamu lurus";
+"FaceTec_feedback_hold_steady" = "Bertahanlah.";
+"FaceTec_feedback_move_phone_away" = "Pindah jauh";
+"FaceTec_feedback_move_phone_closer" = "Pindah lebih dekat";
+"FaceTec_feedback_move_phone_to_eye_level" = "Pindahkan telepon ke tingkat mata";
+"FaceTec_feedback_use_even_lighting" = "Wajah cahaya lebih evenly";
+"FaceTec_initializing_camera" = "Memamankan sumber kamera";
+"FaceTec_instructions_header_ready_1" = "Bersiaplah untuk";
+"FaceTec_instructions_header_ready_2" = "Selfie video Anda";
+"FaceTec_instructions_message_ready_1" = "Bingkailah wajah Anda di dalam oval";
+"FaceTec_instructions_message_ready_2" = "Tekan Saya siap & Mendekatlah";
+"FaceTec_presession_brighten_your_environment" = "Mencerahkan lingkungan Anda";
+"FaceTec_presession_conditions_too_bright" = "Kondisi terlalu cerah";
+"FaceTec_presession_frame_your_face" = "Frame your face in the oval";
+"FaceTec_presession_hold_steady_1" = "Tetap stabil selama: 1";
+"FaceTec_presession_hold_steady_2" = "Tetap stabil selama: 2";
+"FaceTec_presession_hold_steady_3" = "Tetap stabil selama: 3";
+"FaceTec_presession_neutral_expression" = "Ekspresi neutral, tidak senyum";
+"FaceTec_presession_position_face_straight_in_oval" = "Lihat lurus ke depan";
+"FaceTec_presession_remove_dark_glasses" = "Buang kaca gelap";
+"FaceTec_result_facescan_upload_message" = "Mengirim \nterenkripsi\nPemindaian Muka 3D";
+"FaceTec_result_success_message" = "Selfie ditangkap!";
+"FaceTec_retry_header" = "Mari kita coba lagi";
+"FaceTec_retry_ideal_image_label" = "Pose ideal";
+"FaceTec_retry_instruction_message_1" = "Tidak ada cermin atau pencahayaan ekstrem";
+"FaceTec_retry_instruction_message_2" = "Ekspresi neutral, tidak senyum";
+"FaceTec_retry_instruction_message_3" = "Terlalu kabur, kamera bersihkan";
+"FaceTec_retry_subheader_message" = "Kita butuh video selfie yang lebih jelas";
+"FaceTec_retry_your_image_label" = "Selfie anda";
+
