@@ -59,21 +59,36 @@ class ViewController: UIViewController, UITextFieldDelegate {
             // 处理请求结果
             if let error = error {
                 print("Error: \(error)")
+                DispatchQueue.main.async {
+                    self.tipLabel.text = error.localizedDescription
+                }
+                
+                
             } else if let data = data {
                 // 如果请求成功，data 包含了返回的数据
                 do {
-                    if let dict = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-                       let data = dict["data"] as? [String: Any],
+                    let dict = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                    if dict?["code"] as? String != "SUCCESS" {
+                        DispatchQueue.main.async {
+                            self.tipLabel.text = dict?["message"] as? String
+                        }
+                        return
+                    }
+                    
+                    
+                    if let data = dict?["data"] as? [String: Any],
                        let token = data["sdkToken"] as? String {
                         print("JSON Dictionary: \(token)")
                         DispatchQueue.main.async {
                             OneStopManager.default.ex_start(token: token, context: self)
                         }
-                        
                     }
                     
                 } catch {
                     print(error)
+                    DispatchQueue.main.async {
+                        self.tipLabel.text = error.localizedDescription
+                    }
                 }
                 
             }
