@@ -39,11 +39,10 @@ If you only want to use the document feature.
 
 ----
 Please add the follow code to your podfile.
-
 ```ruby
-post_install do |installer|
+  post_install do |installer|
     installer.pods_project.targets.each do |target|
-      if ['SwiftMessages', 'Moya'].include? target.name
+      if ['SwiftMessages', 'Moya', 'OSPKit', 'PromiseKit'].include? target.name
         target.build_configurations.each do |config|
           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
         end

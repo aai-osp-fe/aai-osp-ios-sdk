@@ -19341,182 +19341,210 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 793,
+      "offset": 912,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 803,
+      "offset": 922,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 815,
+      "offset": 934,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 826,
+      "offset": 945,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 1094,
       "length": 14,
       "value": "\"selfie_guide\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1183,
+      "offset": 1302,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1310,
+      "offset": 1429,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1711,
+      "offset": 1830,
       "length": 1,
-      "value": "6"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1717,
+      "offset": 1836,
       "length": 1,
-      "value": "6"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1765,
+      "offset": 1884,
       "length": 1,
-      "value": "3"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1832,
+      "offset": 1951,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2145,
+      "offset": 2142,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2270,
+      "offset": 2267,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2279,
+      "offset": 2276,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2291,
+      "offset": 2288,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2301,
+      "offset": 2298,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2307,
+      "offset": 2304,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2432,
+      "offset": 2429,
       "length": 48,
       "value": "\"selfie_verification_takeSelfiePhotoPage_button\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2781,
+      "offset": 2778,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2874,
+      "offset": 2871,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2961,
+      "offset": 2958,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2970,
+      "offset": 2967,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2982,
+      "offset": 2979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2992,
+      "offset": 2989,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/viewModel\/TwoDGuideViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 950,
+      "offset": 956,
+      "length": 5,
+      "value": "\"<p>\""
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/viewModel\/TwoDGuideViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 969,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/viewModel\/TwoDGuideViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1024,
+      "length": 6,
+      "value": "\"<\/p>\""
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/viewModel\/TwoDGuideViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1038,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/viewModel\/TwoDGuideViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/viewModel\/TwoDGuideViewModel.swift",
       "kind": "Array",
-      "offset": 1024,
+      "offset": 1161,
       "length": 2,
       "value": "[]"
     },
