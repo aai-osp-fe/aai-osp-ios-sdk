@@ -2740,6 +2740,48 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "needRemoveWhenFinish",
+            "printedName": "needRemoveWhenFinish",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OneStop12CallBackableP20needRemoveWhenFinishSbvp",
+            "mangledName": "$s7OneStop12CallBackableP20needRemoveWhenFinishSbvp",
+            "moduleName": "OneStop",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OneStop12CallBackableP20needRemoveWhenFinishSbvg",
+                "mangledName": "$s7OneStop12CallBackableP20needRemoveWhenFinishSbvg",
+                "moduleName": "OneStop",
+                "genericSig": "<τ_0_0 where τ_0_0 : OneStop.CallBackable>",
+                "sugared_genericSig": "<Self where Self : OneStop.CallBackable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Protocol",
@@ -2756,9 +2798,95 @@
         "printedName": "CallBacker",
         "children": [
           {
+            "kind": "Var",
+            "name": "needRemoveWhenFinish",
+            "printedName": "needRemoveWhenFinish",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OneStop10CallBackerC20needRemoveWhenFinishSbvp",
+            "mangledName": "$s7OneStop10CallBackerC20needRemoveWhenFinishSbvp",
+            "moduleName": "OneStop",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OneStop10CallBackerC20needRemoveWhenFinishSbvg",
+                "mangledName": "$s7OneStop10CallBackerC20needRemoveWhenFinishSbvg",
+                "moduleName": "OneStop",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OneStop10CallBackerC20needRemoveWhenFinishSbvs",
+                "mangledName": "$s7OneStop10CallBackerC20needRemoveWhenFinishSbvs",
+                "moduleName": "OneStop",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OneStop10CallBackerC20needRemoveWhenFinishSbvM",
+                "mangledName": "$s7OneStop10CallBackerC20needRemoveWhenFinishSbvM",
+                "moduleName": "OneStop",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onReady:onFinish:onExit:onError:onEvent:)",
+            "printedName": "init(onReady:onFinish:onExit:onError:onEvent:needRemoveWhenFinish:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3007,11 +3135,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7OneStop10CallBackerC7onReady0E6Finish0E4Exit0E5Error0E5EventACyycSg_ySb_SDyS2SGtcSgySS_AJtcSgyAA0c4BackI4CodeO_AJtcSgyAA0ckJ4NameO_AJtcSgtcfc",
-            "mangledName": "$s7OneStop10CallBackerC7onReady0E6Finish0E4Exit0E5Error0E5EventACyycSg_ySb_SDyS2SGtcSgySS_AJtcSgyAA0c4BackI4CodeO_AJtcSgyAA0ckJ4NameO_AJtcSgtcfc",
+            "usr": "s:7OneStop10CallBackerC7onReady0E6Finish0E4Exit0E5Error0E5Event014needRemoveWhenG0ACyycSg_ySb_SDyS2SGtcSgySS_AKtcSgyAA0c4BackI4CodeO_AKtcSgyAA0cnJ4NameO_AKtcSgSbtcfc",
+            "mangledName": "$s7OneStop10CallBackerC7onReady0E6Finish0E4Exit0E5Error0E5Event014needRemoveWhenG0ACyycSg_ySb_SDyS2SGtcSgySS_AKtcSgyAA0c4BackI4CodeO_AKtcSgyAA0cnJ4NameO_AKtcSgSbtcfc",
             "moduleName": "OneStop",
             "declAttributes": [
               "AccessControl"
@@ -14854,126 +14989,126 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1384,
+      "offset": 1220,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1393,
+      "offset": 1229,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1405,
+      "offset": 1241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1415,
+      "offset": 1251,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1450,
+      "offset": 1286,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1854,
+      "offset": 1516,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1863,
+      "offset": 1525,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1875,
+      "offset": 1537,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1885,
+      "offset": 1547,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2022,
+      "offset": 1684,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2054,
+      "offset": 1716,
       "length": 20,
       "value": "\"retry_dialog_title\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2237,
+      "offset": 1899,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2358,
+      "offset": 2020,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "Dictionary",
-      "offset": 2729,
+      "offset": 2391,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2861,
+      "offset": 2523,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2870,
+      "offset": 2532,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2882,
+      "offset": 2544,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/controller\/EnablePermissionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2892,
+      "offset": 2554,
       "length": 2,
       "value": "16"
     },
@@ -16163,84 +16298,98 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 671,
+      "offset": 719,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 771,
+      "offset": 819,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 887,
+      "offset": 935,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 1003,
+      "offset": 1051,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1860,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 1993,
+      "offset": 2231,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2277,
       "length": 9,
       "value": "\"transId\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 2207,
+      "offset": 2445,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2253,
+      "offset": 2491,
       "length": 9,
       "value": "\"transId\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 2434,
+      "offset": 2672,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2480,
+      "offset": 2718,
       "length": 9,
       "value": "\"transId\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 2663,
+      "offset": 2901,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 2947,
       "length": 9,
       "value": "\"transId\""
     },
@@ -16485,56 +16634,56 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 976,
       "length": 72,
       "value": "\"🐻: sdk version === \""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 1047,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "StringLiteral",
-      "offset": 1005,
+      "offset": 1064,
       "length": 82,
       "value": "\"🐻: sdk build_bumber === \""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1145,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "StringLiteral",
-      "offset": 2872,
+      "offset": 2949,
       "length": 38,
       "value": "\"acec24d1-3b53-47d3-9a62-047c555ca13b\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "Array",
-      "offset": 3000,
+      "offset": 3077,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4299,
+      "offset": 4376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4404,
+      "offset": 4481,
       "length": 4,
       "value": "true"
     },
@@ -16589,50 +16738,57 @@
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1724,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1779,
+      "offset": 1808,
       "length": 42,
       "value": "\"https:\/\/st.advance.ai\/sa?project=default\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1932,
+      "offset": 1961,
       "length": 94,
       "value": "\"https:\/\/cdn-sg-sandbox-osp.oss-ap-southeast-1.aliyuncs.com\/mobild\/staging\/country_flag_small\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2506,
       "length": 34,
       "value": "\"🐻: bundle_id === \""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2510,
+      "offset": 2539,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2714,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2880,
       "length": 7,
       "value": "\"2.0.0\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3273,
+      "offset": 3302,
       "length": 4,
       "value": "\"v2\""
     },
@@ -16702,7 +16858,7 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Permissions\/Permissions.swift",
       "kind": "BooleanLiteral",
-      "offset": 1897,
+      "offset": 1905,
       "length": 4,
       "value": "true"
     },
@@ -18836,337 +18992,344 @@
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 413,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "Dictionary",
-      "offset": 451,
+      "offset": 480,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 588,
+      "offset": 617,
       "length": 83,
       "value": "\"🌺➡️ thmeType = \""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 656,
       "length": 1,
       "value": "\", key = \""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 670,
       "length": 1,
       "value": "\", value = \""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 692,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1462,
       "length": 9,
       "value": "\"#ffffff\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 1898,
+      "offset": 1927,
       "length": 6,
       "value": "\"flat\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2908,
+      "offset": 2937,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2913,
+      "offset": 2942,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2949,
+      "offset": 2978,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 3865,
+      "offset": 3894,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 5806,
+      "offset": 5835,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 6257,
+      "offset": 6286,
       "length": 9,
       "value": "\"#333333\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 6692,
+      "offset": 6721,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 7138,
+      "offset": 7167,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 7196,
+      "offset": 7225,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 7250,
+      "offset": 7279,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 7644,
+      "offset": 7673,
       "length": 12,
       "value": "\"capitalize\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 7715,
+      "offset": 7744,
       "length": 11,
       "value": "\"uppercase\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 7786,
+      "offset": 7815,
       "length": 11,
       "value": "\"lowercase\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8276,
+      "offset": 8305,
       "length": 10,
       "value": "\"Italiana\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8308,
+      "offset": 8337,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8317,
+      "offset": 8346,
       "length": 1,
       "value": "\"-Regular\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8358,
+      "offset": 8387,
       "length": 5,
       "value": "\"700\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8385,
+      "offset": 8414,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8394,
+      "offset": 8423,
       "length": 1,
       "value": "\"-Bold\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8426,
+      "offset": 8455,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8435,
+      "offset": 8464,
       "length": 1,
       "value": "\"-Medium\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 8652,
+      "offset": 8681,
       "length": 5,
       "value": "\"700\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 8666,
+      "offset": 8695,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 8723,
+      "offset": 8752,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 9297,
+      "offset": 9326,
       "length": 5,
       "value": "\"700\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 9764,
+      "offset": 9793,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 9847,
+      "offset": 9876,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 10440,
+      "offset": 10469,
       "length": 5,
       "value": "\"700\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 11073,
+      "offset": 11102,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 11651,
+      "offset": 11680,
       "length": 5,
       "value": "\"700\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 12122,
+      "offset": 12151,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 12181,
+      "offset": 12210,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 12651,
+      "offset": 12680,
       "length": 3,
       "value": "132"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 13204,
+      "offset": 13233,
       "length": 10,
       "value": "\"aai_logo\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 13465,
+      "offset": 13494,
       "length": 13,
       "value": "\"data:(.*?);\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "Array",
-      "offset": 13591,
+      "offset": 13620,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "Array",
-      "offset": 13701,
+      "offset": 13730,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 13730,
+      "offset": 13759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 13887,
+      "offset": 13916,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 14012,
+      "offset": 14041,
       "length": 20,
       "value": "\"未找到匹配项\""
     },
@@ -19467,42 +19630,42 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2778,
+      "offset": 2875,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2871,
+      "offset": 2972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2958,
+      "offset": 3096,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2967,
+      "offset": 3105,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2979,
+      "offset": 3117,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDGuideViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2989,
+      "offset": 3127,
       "length": 2,
       "value": "16"
     },
@@ -19740,77 +19903,77 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2421,
       "length": 25,
       "value": "\"retry_dialog_selfie_msg\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2492,
       "length": 34,
       "value": "\"retry_dialog_selfie_confirm_text\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2638,
+      "offset": 2657,
       "length": 33,
       "value": "\"retry_dialog_selfie_cancel_text\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "Dictionary",
-      "offset": 2792,
+      "offset": 2811,
       "length": 17,
       "value": "[(\"forceNext\", \"1\")]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2870,
+      "offset": 2889,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3090,
+      "offset": 3109,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3115,
+      "offset": 3134,
       "length": 5,
       "value": "264.0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3123,
+      "offset": 3142,
       "length": 3,
       "value": "182"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3172,
+      "offset": 3191,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3179,
+      "offset": 3198,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Selfie\/Classes\/Nodes\/controller\/TwoDViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3507,
+      "offset": 3526,
       "length": 1,
       "value": "4"
     },

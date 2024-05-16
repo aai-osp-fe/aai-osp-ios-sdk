@@ -126,9 +126,11 @@ public protocol CallBackable {
   func onExit(nodeCode: Swift.String, params: [Swift.String : Swift.String])
   func onError(errorCode: OneStop.CallBackErrorCode, params: [Swift.String : Swift.String])
   func onEvent(eventName: OneStop.CallBackEventName, params: [Swift.String : Swift.String])
+  var needRemoveWhenFinish: Swift.Bool { get }
 }
 public class CallBacker : OneStop.CallBackable {
-  public init(onReady: (() -> Swift.Void)? = nil, onFinish: ((Swift.Bool, [Swift.String : Swift.String]) -> Swift.Void)? = nil, onExit: ((Swift.String, [Swift.String : Swift.String]) -> Swift.Void)? = nil, onError: ((OneStop.CallBackErrorCode, [Swift.String : Swift.String]) -> Swift.Void)? = nil, onEvent: ((OneStop.CallBackEventName, [Swift.String : Swift.String]) -> Swift.Void)? = nil)
+  public var needRemoveWhenFinish: Swift.Bool
+  public init(onReady: (() -> Swift.Void)? = nil, onFinish: ((Swift.Bool, [Swift.String : Swift.String]) -> Swift.Void)? = nil, onExit: ((Swift.String, [Swift.String : Swift.String]) -> Swift.Void)? = nil, onError: ((OneStop.CallBackErrorCode, [Swift.String : Swift.String]) -> Swift.Void)? = nil, onEvent: ((OneStop.CallBackEventName, [Swift.String : Swift.String]) -> Swift.Void)? = nil, needRemoveWhenFinish: Swift.Bool = true)
   public func onReady()
   public func onFinish(status: Swift.Bool, params: [Swift.String : Swift.String] = [:])
   public func onExit(nodeCode: Swift.String, params: [Swift.String : Swift.String] = [:])
