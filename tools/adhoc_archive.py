@@ -25,10 +25,11 @@ def main():
     # 构建命令
     build_command = [
         'xcodebuild',
+        'clean', 
+        'archive',
         '-workspace', project_path,
         '-scheme', scheme_name,
         '-configuration', 'Release',
-        'clean', 'archive',
         '-archivePath', f'{output_path}/OSPKit_Example.xcarchive',
         '-allowProvisioningUpdates',
         '-verbose',
@@ -41,6 +42,7 @@ def main():
         '-archivePath', f'{output_path}/OSPKit_Example.xcarchive',
         '-exportOptionsPlist', 'exprot_adhoc.plist',
         '-exportPath', f'{output_path}/ipa',
+        ' -allowProvisioningUpdates',
         '-verbose',
     ]
 
@@ -56,7 +58,7 @@ def main():
         print(f'IPA exported to {output_path}')
         
         upload_to_pgyer(f'{output_path}/ipa/OSPKit_Example.ipa')
-        print("download page: https://www.pgyer.com/ePQYN5")
+        print("download page: https://www.pgyer.com/HB3FW0x8")
     except Exception as e:
         print(f'Build and export failed with error: {e}')
 
