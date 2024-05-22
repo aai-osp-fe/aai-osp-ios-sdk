@@ -36,12 +36,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func startBtnClick(_ sender: UIButton) {
+        guard let key = key_tf.text, !key.isEmpty else {
+            tipLabel.text = "please input key..."
+            return
+        }
+        
+        guard let jid = jid_tf.text, !jid.isEmpty else {
+            tipLabel.text = "please input journeyId...."
+            return
+        }
+        
         if let key = key_tf.text, !key.isEmpty, let id = jid_tf.text, !id.isEmpty {
-            self.request_sdk_token(key: key, id: id)
+            sender.isEnabled = false
+            self.request_sdk_token(key: key, id: id, completion: {
+                sender.isEnabled = true
+            })
         }
     }
     
-    func request_sdk_token(key: String, id: String) {
+    func request_sdk_token(key: String, id: String, completion: @escaping () -> Void) {
         // 定义一个 URL
         let url = URL(string: "https://sandbox-oop-api.advai.net/intl/openapi/sdk/v2/trans/start")!
         // 创建一个任务
@@ -56,6 +69,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            DispatchQueue.main.async {
+                completion()
+            }
             // 处理请求结果
             if let error = error {
                 print("Error: \(error)")
