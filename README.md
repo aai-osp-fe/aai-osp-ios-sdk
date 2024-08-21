@@ -12,29 +12,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Device requirements
 
-osp_selfie SDK requires iOS 13 or newer.
+OSP SDK requires iOS 11 or newer.
 
 ## Integration
 
 OSPKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-If you want to use all features.
 
 ```ruby
-pod 'OSPKit'
-```
-
-If you only want to use the selfie feature.
-
-```ruby
-# pod 'OSPSelfie' coming
-```
-
-If you only want to use the document feature.
-
-```ruby
-# pod 'OSPDocument' coming
+pod 'OSPSelfie'
 ```
 
 ----
@@ -42,7 +29,7 @@ Please add the follow code to your podfile.
 ```ruby
   post_install do |installer|
     installer.pods_project.targets.each do |target|
-      if ['SwiftMessages', 'Moya', 'OSPKit', 'PromiseKit'].include? target.name
+      if ['SwiftMessages', 'Moya', 'OSPSelfie', 'PromiseKit'].include? target.name
         target.build_configurations.each do |config|
           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
         end
@@ -62,7 +49,7 @@ The OSP SDK Inquiry flow lets you securely and seamlessly collect your user's in
 ## Usage
 
 ```swift
-import OSPSDK
+import OSPSelfie
 ```
 
 ### 1.Register

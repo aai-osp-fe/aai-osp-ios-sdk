@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'OSPKit_Example' do
-  pod 'OSPKit', :path => '../'
-#  pod 'OSPSelfie', :path => '../'
+#  pod 'OSPKit', :path => '../'
+  pod 'OSPSelfie', :path => '../'
 #  pod 'OSPDocument', :path => '../'
 #  pod 'OSPKit'
   target 'OSPKit_Tests' do
@@ -15,7 +15,7 @@ target 'OSPKit_Example' do
   
   post_install do |installer|
     installer.pods_project.targets.each do |target|
-      if ['SwiftMessages', 'Moya', 'OSPKit', 'PromiseKit'].include? target.name
+      if ['SwiftMessages', 'Moya', 'OSPSelfie', 'PromiseKit'].include? target.name
         target.build_configurations.each do |config|
           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
         end
