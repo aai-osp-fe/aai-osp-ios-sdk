@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OSPSelfie'
-  s.version          = 'selfie.1.1.0'
+  s.version          = '2.1.0'
   s.summary          = 'Used for conducting liveness detection.'
 
 # This description is used to generate tags and improve search results.
