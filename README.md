@@ -16,12 +16,12 @@ OSP SDK requires iOS 11 or newer.
 
 ## Integration
 
-OSPKit is available through [CocoaPods](https://cocoapods.org). To install
+OSPSelfie is available through [CocoaPods](https://cocoapods.org) [OSPSelfie](https://cocoapods.org/pods/OSPSelfie). To install
 it, simply add the following line to your Podfile:
 
 
 ```ruby
-pod 'OSPSelfie'
+pod 'OSPSelfie' 
 ```
 
 ----
