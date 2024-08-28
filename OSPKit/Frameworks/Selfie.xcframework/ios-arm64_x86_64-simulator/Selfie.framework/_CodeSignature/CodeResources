@@ -87,7 +87,7 @@
 		</dict>
 		<key>Headers/Selfie-Swift.h</key>
 		<data>
-		7Urtn7lN48lbeLyMqlV4yM509q0=
+		lo3+iKgTzN1RL4gd6InC779Dix0=
 		</data>
 		<key>Headers/Selfie-umbrella.h</key>
 		<data>
@@ -99,11 +99,11 @@
 		</data>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dWyc9uK320MNWWyDjQOAf2kdy6c=
+		s8Mgm/i8pADzPS9CAjf6Quu37jg=
 		</data>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		K1k42C5zyEck5psnEFlsV+3TQHc=
+		YTujeCDbJ3wUJ05h0SItfb7FPaw=
 		</data>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -111,19 +111,19 @@
 		</data>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		K1k42C5zyEck5psnEFlsV+3TQHc=
+		YTujeCDbJ3wUJ05h0SItfb7FPaw=
 		</data>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Toe52Dqut4Jc+Vdd/6otsvvWvbU=
+		7SM984Eh0/vHdHOn0i9JFhTkuFA=
 		</data>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dWyc9uK320MNWWyDjQOAf2kdy6c=
+		s8Mgm/i8pADzPS9CAjf6Quu37jg=
 		</data>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2abYeokeSsBM+DnWPNecI2sDF7E=
+		eHCUARWOhc6u+8ozJZwPAizcF6c=
 		</data>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -131,11 +131,11 @@
 		</data>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2abYeokeSsBM+DnWPNecI2sDF7E=
+		eHCUARWOhc6u+8ozJZwPAizcF6c=
 		</data>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sz7YwXMyAMlpF3/tbMX/z897i88=
+		YcEFLBiHaTu/IRj8NudTQ8CPwgk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -256,7 +256,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lOJQa2cCqUab2CJ1bLMz8G1Hc61WdHecthB04p3Syfs=
+			PSLesmfddQhdaEdgenitapDlfKXD9INv2QW6pgJZs1w=
 			</data>
 		</dict>
 		<key>Headers/Selfie-umbrella.h</key>
@@ -270,14 +270,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b9GVeJYm1VLzkUTthZDInt+NOUJngknwoO8RY7UAuGg=
+			RgMYPVMRqh268SoBFqNUr7RFpNm1BxbmDcfnEWrjS2c=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jnl4z0wpwcJHoIKy9fzaGImnbMzC37B7OecMci2Xp9Y=
+			N2+NbvR2BPAWVaSawvQw9NXXjEkoWcdxqq6r2bfx+uc=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -291,28 +291,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jnl4z0wpwcJHoIKy9fzaGImnbMzC37B7OecMci2Xp9Y=
+			N2+NbvR2BPAWVaSawvQw9NXXjEkoWcdxqq6r2bfx+uc=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JeKSkwcza0JCgUBSd7JWrZUfQuUfRek/L+FMf8gPt5c=
+			qXqv7CZKrta85OQqGDABocyKz1B9YTJfVeDgYcSuSdA=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b9GVeJYm1VLzkUTthZDInt+NOUJngknwoO8RY7UAuGg=
+			RgMYPVMRqh268SoBFqNUr7RFpNm1BxbmDcfnEWrjS2c=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzFQI8QBOT55HWIHPg8vFW0QpQ2VHzOx1G3bCzZoJes=
+			qCr5DcyZEchwiUpQSxfoufHDNUur8Smc+Mv5ZVbPN4A=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -326,14 +326,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzFQI8QBOT55HWIHPg8vFW0QpQ2VHzOx1G3bCzZoJes=
+			qCr5DcyZEchwiUpQSxfoufHDNUur8Smc+Mv5ZVbPN4A=
 			</data>
 		</dict>
 		<key>Modules/Selfie.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uc3HBg0kY5ZaFo2djVzNuiu8ud5GNTHexpKDH9587gc=
+			0KMPh5D35NKy/27wNpJIchSQ/3LhEKP8cb9wYWEeUG0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

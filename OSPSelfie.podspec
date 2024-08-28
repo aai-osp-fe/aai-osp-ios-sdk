@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OSPSelfie'
-  s.version          = '2.1.0'
+  s.version          = '2.1.1'
   s.summary          = 'Used for conducting liveness detection.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
-  s.xcconfig = { 'ARCHS' => 'arm64' }
+#  s.xcconfig = { 'ARCHS' => 'arm64' }
   s.swift_version    = '5.0'
 #  s.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
   

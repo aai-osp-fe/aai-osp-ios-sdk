@@ -198,12 +198,12 @@ public struct NodeModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class OneStopManager {
-  public static let `default`: Selfie.OneStopManager
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OneStopManager : ObjectiveC.NSObject {
+  @objc public static let shared: Selfie.OneStopManager
   public func ready()
   public func start(launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
   public func registerNode(name: Selfie.NodeType, node: any Selfie.Nodable)
-  public func start(context: UIKit.UIViewController)
+  @objc public func start(context: UIKit.UIViewController)
   public func register(callbacker: any Selfie.CallBackable)
   public func ex_start(token: Swift.String, context: UIKit.UIViewController)
   @objc deinit

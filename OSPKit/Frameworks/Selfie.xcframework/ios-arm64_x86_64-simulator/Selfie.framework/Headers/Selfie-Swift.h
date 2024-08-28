@@ -278,6 +278,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -306,6 +307,18 @@ SWIFT_CLASS("_TtC6Selfie8LogoView")
 @interface LogoView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+
+@class UIViewController;
+
+SWIFT_CLASS("_TtC6Selfie14OneStopManager")
+@interface OneStopManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OneStopManager * _Nonnull shared;)
++ (OneStopManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)startWithContext:(UIViewController * _Nonnull)context;
 @end
 
 
@@ -610,6 +623,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -638,6 +652,18 @@ SWIFT_CLASS("_TtC6Selfie8LogoView")
 @interface LogoView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+
+@class UIViewController;
+
+SWIFT_CLASS("_TtC6Selfie14OneStopManager")
+@interface OneStopManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OneStopManager * _Nonnull shared;)
++ (OneStopManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)startWithContext:(UIViewController * _Nonnull)context;
 @end
 
 

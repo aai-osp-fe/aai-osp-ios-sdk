@@ -4875,26 +4875,27 @@
         "children": [
           {
             "kind": "Var",
-            "name": "default",
-            "printedName": "default",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "OneStopManager",
                 "printedName": "Selfie.OneStopManager",
-                "usr": "s:6Selfie14OneStopManagerC"
+                "usr": "c:@M@Selfie@objc(cs)OneStopManager"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6Selfie14OneStopManagerC7defaultACvpZ",
-            "mangledName": "$s6Selfie14OneStopManagerC7defaultACvpZ",
+            "usr": "c:@M@Selfie@objc(cs)OneStopManager(cpy)shared",
+            "mangledName": "$s6Selfie14OneStopManagerC6sharedACvpZ",
             "moduleName": "Selfie",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4908,17 +4909,18 @@
                     "kind": "TypeNominal",
                     "name": "OneStopManager",
                     "printedName": "Selfie.OneStopManager",
-                    "usr": "s:6Selfie14OneStopManagerC"
+                    "usr": "c:@M@Selfie@objc(cs)OneStopManager"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Selfie14OneStopManagerC7defaultACvgZ",
-                "mangledName": "$s6Selfie14OneStopManagerC7defaultACvgZ",
+                "usr": "c:@M@Selfie@objc(cs)OneStopManager(cm)shared",
+                "mangledName": "$s6Selfie14OneStopManagerC6sharedACvgZ",
                 "moduleName": "Selfie",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "accessorKind": "get"
               }
@@ -5042,11 +5044,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Selfie14OneStopManagerC5start7contextySo16UIViewControllerC_tF",
+            "usr": "c:@M@Selfie@objc(cs)OneStopManager(im)startWithContext:",
             "mangledName": "$s6Selfie14OneStopManagerC5start7contextySo16UIViewControllerC_tF",
             "moduleName": "Selfie",
+            "objc_name": "startWithContext:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5139,13 +5143,70 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6Selfie14OneStopManagerC",
+        "usr": "c:@M@Selfie@objc(cs)OneStopManager",
         "mangledName": "$s6Selfie14OneStopManagerC",
         "moduleName": "Selfie",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
-        "hasMissingDesignatedInitializers": true
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -10524,6 +10585,13 @@
       "value": "3"
     },
     {
+      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/AAINetworking\/AAIProvider.swift",
+      "kind": "Array",
+      "offset": 236,
+      "length": 123,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/aaiUI\/toast\/AAIToast.swift",
       "kind": "StringLiteral",
       "offset": 101,
@@ -11156,77 +11224,63 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 2445,
+      "offset": 2444,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 2672,
+      "offset": 2670,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/Model.swift",
       "kind": "Dictionary",
-      "offset": 2901,
+      "offset": 2898,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "Dictionary",
-      "offset": 500,
+      "offset": 519,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/SDKManager\/OneStopManager.swift",
       "kind": "Array",
-      "offset": 3077,
+      "offset": 3125,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1812,
       "length": 42,
       "value": "\"https:\/\/st.advance.ai\/sa?project=default\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2506,
-      "length": 34,
-      "value": "\"🐻: bundle_id === \""
-    },
-    {
-      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2539,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2714,
+      "offset": 2725,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2891,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.1.1\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/ base\/config\/OSPConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3313,
       "length": 4,
       "value": "\"v2\""
     },
@@ -11296,7 +11350,7 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Theme\/Theme.swift",
       "kind": "Dictionary",
-      "offset": 480,
+      "offset": 479,
       "length": 3,
       "value": "[]"
     },
@@ -11310,91 +11364,91 @@
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Extension\/views+core.swift",
       "kind": "StringLiteral",
-      "offset": 4882,
+      "offset": 4896,
       "length": 12,
       "value": "\"Selfie.ActContainer\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Dictionary",
-      "offset": 854,
+      "offset": 853,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 874,
       "length": 12,
       "value": "\"toC_flowId\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 931,
       "length": 14,
       "value": "\"toC_tenantId\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "IntegerLiteral",
-      "offset": 1071,
+      "offset": 1070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Dictionary",
-      "offset": 1180,
+      "offset": 1179,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Array",
-      "offset": 2663,
+      "offset": 2662,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "StringLiteral",
-      "offset": 2721,
+      "offset": 2720,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
+      "offset": 2784,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Dictionary",
-      "offset": 2834,
+      "offset": 2833,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Dictionary",
-      "offset": 2939,
+      "offset": 2938,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Array",
-      "offset": 3044,
+      "offset": 3043,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/OneStop\/OneStop\/Core\/Classes\/core\/Workflow\/Workflow.swift",
       "kind": "Dictionary",
-      "offset": 3093,
+      "offset": 3092,
       "length": 3,
       "value": "[]"
     }
