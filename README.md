@@ -21,15 +21,15 @@ it, simply add the following line to your Podfile:
 
 
 ```ruby
-pod 'OSPSelfie' 
+pod 'OSPSelfie', '2.1.1'
 ```
 
 ----
-Please add the follow code to your podfile.
+Add the following code to your podfile file.
 ```ruby
   post_install do |installer|
     installer.pods_project.targets.each do |target|
-      if ['SwiftMessages', 'Moya', 'OSPSelfie', 'PromiseKit'].include? target.name
+      if ['SwiftMessages', 'Moya', 'OSPSelfie'].include? target.name
         target.build_configurations.each do |config|
           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
         end
@@ -59,12 +59,12 @@ import OSPSelfie
 name: The NodeType you want to register.
 node: The instance of nodeable.
 */
-OneStopManager.default.registerNode(name: .selfie, node: SelfieNode.init())
+OneStopManager.shared.registerNode(name: .selfie, node: SelfieNode.init())
 
 /**
 register callbacker
 */
-OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para in
+OneStopManager.shared.register(callbacker: CallBacker(onFinish: { status, para in
     print("work finish --- \(status), \(para)")
 }, onExit: { code, para in
     print("work exit --- \(code), \(para)")
@@ -73,7 +73,7 @@ OneStopManager.default.register(callbacker: CallBacker(onFinish: { status, para 
 /**
 call the ready() function
 */
-OneStopManager.default.ready()
+OneStopManager.shared.ready()
 ```
 
 ---
